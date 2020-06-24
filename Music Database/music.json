@@ -1,0 +1,51 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"music"},
+{"type":"table","name":"album","database":"music","data":
+[
+{"album_id":"1","title":"Lover","artist_id":"3"},
+{"album_id":"2","title":"1989","artist_id":"3"},
+{"album_id":"3","title":"Fine Line","artist_id":"2"},
+{"album_id":"4","title":"Midnight Memories","artist_id":"2"},
+{"album_id":"5","title":"Afer Hours","artist_id":"1"}
+]
+}
+,{"type":"table","name":"artist","database":"music","data":
+[
+{"artist_id":"1","name":"The Weeknd"},
+{"artist_id":"2","name":"Harry Styles"},
+{"artist_id":"3","name":"Taylor Swift"}
+]
+}
+,{"type":"table","name":"genre","database":"music","data":
+[
+{"genre_id":"3","name":"Country Music"},
+{"genre_id":"2","name":"Hiphop"},
+{"genre_id":"1","name":"pop"}
+]
+}
+,{"type":"table","name":"track","database":"music","data":
+[
+{"track_id":"1","title":"Blinding Lightts","len":"297","rating":"5","count":"0","album_id":"5","genre_id":"2"},
+{"track_id":"2","title":"Heartless","len":"482","rating":"5","count":"0","album_id":"5","genre_id":"2"},
+{"track_id":"3","title":"In your Eyes","len":"313","rating":"5","count":"0","album_id":"5","genre_id":"2"},
+{"track_id":"4","title":"StarBoy","len":"207","rating":"5","count":"0","album_id":"5","genre_id":"2"},
+{"track_id":"5","title":"Earned it","len":"207","rating":"5","count":"0","album_id":"5","genre_id":"2"},
+{"track_id":"6","title":"I Feel it coming","len":"207","rating":"5","count":"0","album_id":"5","genre_id":"2"},
+{"track_id":"7","title":"Story of my life","len":"207","rating":"5","count":"0","album_id":"4","genre_id":"1"},
+{"track_id":"8","title":"Best song ever","len":"207","rating":"5","count":"0","album_id":"4","genre_id":"1"},
+{"track_id":"9","title":"Diana","len":"207","rating":"5","count":"0","album_id":"4","genre_id":"1"},
+{"track_id":"10","title":"Golden","len":"207","rating":"5","count":"0","album_id":"3","genre_id":"2"},
+{"track_id":"11","title":"Adore you","len":"207","rating":"5","count":"0","album_id":"3","genre_id":"2"},
+{"track_id":"12","title":"Welcome to New York","len":"207","rating":"5","count":"0","album_id":"2","genre_id":"3"},
+{"track_id":"13","title":"Blank Space","len":"207","rating":"5","count":"0","album_id":"2","genre_id":"3"},
+{"track_id":"14","title":"Style","len":"207","rating":"5","count":"0","album_id":"2","genre_id":"3"},
+{"track_id":"15","title":"I Wish You Would","len":"207","rating":"5","count":"0","album_id":"2","genre_id":"3"},
+{"track_id":"16","title":"I forgot that you exist","len":"207","rating":"5","count":"0","album_id":"1","genre_id":"3"},
+{"track_id":"17","title":"The archer","len":"207","rating":"5","count":"0","album_id":"1","genre_id":"3"},
+{"track_id":"18","title":"I think he knows","len":"207","rating":"5","count":"0","album_id":"1","genre_id":"3"},
+{"track_id":"19","title":"Paper rings","len":"207","rating":"5","count":"0","album_id":"1","genre_id":"3"},
+{"track_id":"20","title":"False God","len":"207","rating":"5","count":"0","album_id":"1","genre_id":"3"}
+]
+}
+]
